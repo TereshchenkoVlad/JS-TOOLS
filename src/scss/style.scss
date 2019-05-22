@@ -1,0 +1,25 @@
+@import "assets/_header";
+@import "assets/_main";
+@import "assets/_footer";
+
+body {
+    transition: transform 1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to left, #F5EDEB, #FCB1AB); 
+        padding: 20px;
+        text-align: center;
+        .icon{
+            width: 50px;
+            height: 50px;
+            margin-left: 20px;
+        }
+    }
+    
+}
