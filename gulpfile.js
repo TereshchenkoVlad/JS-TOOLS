@@ -17,7 +17,7 @@ gulp.task("build", () => {
     gulp.src("src/index.html")
     .pipe(gulp.dest("dist/"))
 
-    gulp.src("src/js/**/*.js")
+   gulp.src("src/js/main.min.js")
     .pipe(gulp.dest("dist/js/"))
 
     gulp.src("src/css/*")
